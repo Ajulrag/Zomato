@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Okra, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    
+}
+
+.hea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.nav .app{
+    
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 50px;
+    justify-content: space-between;
+    color: white;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head .navbar a{
+   
+    text-decoration: none;
+    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: Okra, Helvetica, sans-serif;;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.img{
+    height: 80%;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    max-width: 75rem;
+    padding: 1rem 1.5rem;
+}
+
+
+
+
+.head{
+    
+    background-image: url("./images/zomato-background.avif");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.logo{
+    width: 250px;
+}
+.head h3{
+    font-size: 2.1em;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 60%;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.search p{
+    color: grey;
+    border-right: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252, 119, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search i{
+    color: grey;
+    padding-left: 10px;
+
+}
+.sec-1{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 13vh;
+    
+    
+}
+.box{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 3px 5px;
+    overflow:hidden;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: white;
+    transition: 1s;
+    
+}
+.box:hover{
+    transform: scale(1.05);
+}
+.box img{
+    width: 100%;
+}
+.white{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    color: grey;
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.white span{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0.7px;
+}
+h1{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56, 56, 56);
+}
+.sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+    text-decoration: none;
+}
+.box-2{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .2s;
+
+}
+.box-2:hover{
+    box-shadow: 0 5px 5px rgba(4, 4, 4, 0.084);
+}
+.box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-decoration: none;
+}
+.box-2 div span{
+    color: rgb(65, 64, 64);
+    font-size: 1.2rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sec-5{
+    display: flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgb(255, 248,248);
+}
+.flex{
+    display: flex;
+}
+.contact{
+    width: 760px;
+   
+    align-items: center;
+}
+.contact img{
+    width: 250px;
+   
+    
+}
+.address{
+    width: 26rem;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+.address p{
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(92, 91, 91);
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34, 34, 34);
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+}
+.radio label{
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+}
+.radio [type=radio]{
+    accent-color: rgb(255,92,92);
+}
+.email{
+    position: relative;
+}
+.email input{
+    height: 45px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184, 183, 183);
+    outline: rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: grey;
+    font-weight: lighter;
+}
+.email button{
+    border-radius: 6px;
+    border: 1px solid rgb(253, 104, 104);
+    background-color: rgb(253, 104, 104);
+    font-size: 15px;
+    padding: 8px;
+    margin-left: 6px;
+    color: white;
+}
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: grey;
+}
+.app img{
+    width: 137px;
+    height: 40px;
+}
+.first img{
+    width: 128px;
+    height: 32px;
+}
+.sec-7{
+    padding: 40px 120px;
+    background-color: rgb(244, 244, 253);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   
+    margin-right: 20px;
+    font-weight: 400;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 200px;
+
+}
+.second h4{
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: grey;
+    font-size: 0.9rem;
+}
+.footter .logo{
+    color: black;
+}
+.sec-4 a{
+    text-decoration: none;
+}
+.iicon{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.iicon a{
+    color: black;
+    
+}
